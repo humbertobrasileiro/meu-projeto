@@ -189,3 +189,10 @@ footer {
   bottom: 0;
   font-size: 1rem;
 }
+
+footer h5 {
+  font-size: 1rem;
+  text-align: center;
+  color: #f00;
+  text-shadow: 2px 2px 6px #000;
+}
