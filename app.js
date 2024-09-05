@@ -2,11 +2,6 @@ let resultadoHeader = document.getElementById("resultado-header");
 let composicaoItem = document.getElementById("composicao-item");
 let exibeAlbum = document.getElementById("exibe-album");
 
-function adicionarTag(texto, destino) {
-  let div = document.getElementById(destino);
-  div.appendChild(novaTag);
-}
-
 resultadoHeader.innerHTML = `
   <div class="resultado-header">
     <h2>${banda}</h2>
