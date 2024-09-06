@@ -20,23 +20,21 @@
             <main>
                 <section class="search">
                     <h2>Encontre as maiores bandas de rock em um só lugar!</h2>
-                    <form action="/" method="get" class="busca">
-                        <input type="text" placeholder="Pesquise a coletânea da sua banda favorita">
-                        <button type="submit" class="button">Buscar</button>
-                    </form>
+                    <div class="busca">
+                        <input type="text" placeholder="Demonstração: Pesquise Queen ou Pink Floyd" id="campo-pesquisa">
+                        <button onclick="pesquisar()" class="button">Pesquisar</button>
+                    </div>
                 </section>
 
                 <section class="item-resultado">
 
                     <div class="resultado-header" id="resultado-header"></div>
 
-                    <div class="resultado-composicao">
-                        <h4>Composição da Banda</h4>
+                    <div class="resultado-composicao">                        
                         <div class="composicao-item" id="composicao-item"></div>
                     </div>
 
                     <div class="resultado-albuns">
-                        <h4>Álbuns de Estúdio</h4>
                         <div class="exibe-album" id="exibe-album"></div>
                     </div>
 
